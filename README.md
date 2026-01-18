@@ -3,20 +3,20 @@ This project implements a machine learning model for detecting fake news article
 
 
 ## Dataset
-Source: Fake and Real News Dataset - Kaggle
-Total Articles: 44,898
-Real News: 21,417 articles (True.csv)
-Fake News: 23,481 articles (Fake.csv)
-Features: TF-IDF vectorization with 5,000 features (unigrams + bigrams)
+- Source: Fake and Real News Dataset - Kaggle
+- Total Articles: 44,898
+- Real News: 21,417 articles (True.csv)
+- Fake News: 23,481 articles (Fake.csv)
+- Features: TF-IDF vectorization with 5,000 features (unigrams + bigrams)
 
 
 ## Tech Stack
-Language: Python 3.11+
-ML Framework: scikit-learn 1.3.2
-NLP: NLTK 3.8.1
-API Framework: FastAPI 0.104.1
-Server: Uvicorn
-Frontend: HTML5 + Tailwind CSS + JavaScript
+- Language: Python 3.11+
+- ML Framework: scikit-learn 1.3.2
+- NLP: NLTK 3.8.1
+- API Framework: FastAPI 0.104.1
+- Server: Uvicorn
+- Frontend: HTML5 + Tailwind CSS + JavaScript
 
 
 ## Setup
