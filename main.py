@@ -71,6 +71,3 @@ def predict(data: NewsArticle):
             "real": round(float(probabilities[1]) * 100, 2)
         }
     }
-
-# To run the API locally:
-# uvicorn main:app --reload
